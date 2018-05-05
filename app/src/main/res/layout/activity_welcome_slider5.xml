@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/activity_welcome_slider5"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/android_quiz_gradient_background">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+
+        <ImageView
+            android:layout_width="@dimen/img_width_height"
+            android:layout_height="@dimen/img_width_height"
+            android:scaleType="fitXY"
+            android:src="@drawable/activity_home_test_icon" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/bg_screen5_button"
+            android:text="@string/slide5_title"
+            android:padding="10dp"
+            android:onClick="registerNow"
+            android:layout_marginTop="@dimen/slide_difference_between_imgview_and_below_text"
+            android:textColor="@android:color/white"
+            android:id="@+id/register_button"
+            android:textSize="@dimen/slide_title" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/android_quiz_gradient_background"
+            android:text="@string/slide5_skip_button_title"
+            android:onClick="skipNow"
+            android:textSize="@dimen/slide5_skip_button_text_size"
+            android:id="@+id/skip_button"
+            android:textColor="@android:color/black" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:paddingLeft="@dimen/desc_padding"
+            android:paddingRight="@dimen/desc_padding"
+            android:text="@string/slide5_description"
+            android:textAlignment="center"
+            android:textColor="@android:color/black"
+            android:textSize="@dimen/slide5_description_text_size" />
+
+    </LinearLayout>
+
+</RelativeLayout>

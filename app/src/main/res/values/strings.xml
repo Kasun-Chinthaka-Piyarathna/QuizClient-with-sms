@@ -1,0 +1,302 @@
+<resources>
+    <string name="app_name">Quiz</string>
+    <string name="title_activity_home">Etisalat Quiz 2018</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="action_settings">Settings</string>
+    <string name="sms_message"><![CDATA[ From : %1$s<br/>%2$s]]></string>
+    <string name="title_activity_welcome">Home Screen</string>
+    <string name="next">NEXT</string>
+    <string name="skip">SKIP</string>
+    <string name="start">GOT IT</string>
+
+    <!-- slide ree-->
+    <string name="slide1_title">Answer questions</string>
+    <string name="slide1_description">User should answer the question in appropriate method, instructed by the system</string>
+    <string name="slide2_title">View score</string>
+    <string name="slide2_description">User can view the current score and position </string>
+    <string name="slide3_title">Invite others</string>
+    <string name="slide3_description">Registered user can invite another user who is not registered in the system yet</string>
+    <string name="slide4_title">Language Support</string>
+    <string name="slide4_description">Application language can be changed by a registered user.Supported languages: Sinhala, English, Tamil</string>
+    <string name="slide5_title">Register Now</string>
+    <string name="slide5_description">The best way to play the quiz competition is to be an unbeatable competitor and win million in cash</string>
+    <string name="slide5_skip_button_title">Skip</string>
+
+    <string name="play_again_descritption">To see the welcome slider again, goto Settings -> apps -> welcome slider -> clear data</string>
+    <string name="play_again">Play Again</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <!--HomeActivity-->
+    <string name="homeactivity_register_response">Registered</string>
+    <string name="homeactivity_registered_user_toast">Registered user!</string>
+    <string name="homeactivity_not_registered_user_toast">Not Registered!</string>
+    <string name="homeactivity_check_default_sim_alert_network_operator">Etisalat</string>
+    <string name="homeactivity_check_default_sim_alert_title">Etisalat Quiz Competition 2018!</string>
+    <string name="homeactivity_check_default_sim_alert_message_pre_part">Your default sim is </string>
+    <string name="homeactivity_check_default_sim_alert_message_no_sim_title">We couldn\'t find an Etisalat sim in your phone </string>
+    <string name="homeactivity_check_default_sim_alert_message_post_part">. To use this application, you have to change Etisalat as the default sim. </string>
+    <string name="homeactivity_check_default_sim_alert_message_set_possitive_button_txt">Yes</string>
+    <string name="homeactivity_check_default_sim_alert_message_set_negative_button_txt">No</string>
+    <string name="homeactivity_register_alert_positive_button_txt">Register Now</string>
+    <string name="homeactivity_register_alert_sms_sent_toast">SMS sent!. Wait for the response.</string>
+    <string name="homeactivity_register_alert_sms_failed_toast">SMS faild, please try again later!</string>
+    <string name="homeactivity_play_button_looking_ques_toast">Please wait for looking questions</string>
+    <string name="homeactivity_play_button_looking_ques_sms_failed_toast">SMS faild, please try again later!</string>
+    <string name="homeactivity_regsiter_quiz_button_text">Yes</string>
+    <string name="homeactivity_regsiter_quiz__alert_title">Register Now</string>
+    <string name="homeactivity_regsiter_quiz__alert_message">Are you sure you want to register quiz</string>
+    <string name="homeactivity_regsiter_quiz__alert_negative_button_txt">No</string>
+    <string name="homeactivity_regsiter_quiz__alert_negative_button_toast">Ok cool!</string>
+
+
+
+    <!--InviteFriendsActivity-->
+
+    <string name="invite_friends_activity_invite_alert_sent_sms_toast">SMS Sent! Please wait for the response</string>
+    <string name="invite_friends_activity_invite_alert_sent_sms_failed_toast">SMS faild, please try again later!</string>
+    <string name="invite_friends_activity_empty_edit_text_toast">Field Required!</string>
+    <string name="invite_friends_activity_sent_inviation">sent invitation</string>
+    <string name="invite_friends_activity_already_registered_one">already registered</string>
+    <string name="invite_friends_activity_send_invitation_alert_title">Send Invitation</string>
+    <string name="invite_friends_activity_sent_invitation_alert_title">Etisalat Quiz Competition 2018!</string>
+    <string name="invite_friends_activity_sent_invitation_alert_message">Successfully sent Invitation</string>
+    <string name="invite_friends_activity_send_invitation_alert_positive_button_txt">Yes</string>
+    <string name="invite_friends_activity_send_invitation_alert_message">Are you sure you want to send this invitation</string>
+    <string name="invite_friends_activity_send_invitation_alert_negative_button_txt">No</string>
+    <string name="invite_friends_activity_send_invitation_alert_negative_button_toast">You\'ve changed your mind not to send invitation!</string>
+    <string name="invite_friends_activity_progress_dialog_sms_received_type_one">You have successfully sent Invitation.</string>
+    <string name="invite_friends_activity_progress_dialog_sms_received_type_two">Ohhh!, That person is already registered one.</string>
+    <string name="invite_friends_activity_progress_dialog_sms_received_type_three">Something Went Wrong!. Please try it again</string>
+    <string name="invite_friends_activity_invalid_etisalat_number_alert_title">Etisalat Quiz Competition 2018!</string>
+    <string name="invite_friends_activity_invalid_etisalat_number_alert_message">Invalid Etisalat Number</string>
+    <string name="invite_friends_activity_invalid_etisalat_number_alert_positive_button_txt">Yes</string>
+
+    <!--SMS-->
+    <string name="sms_sent_command">SMS Sent!</string>
+    <string name="sms_failed_command">SMS faild, please try again later!</string>
+
+
+    <!--ProgressDialog-->
+    <string name="progress_dialog_alert_title">Etisalat Quiz Competition 2018!</string>
+    <string name="progress_dialog_alert_message_loading_score">Loading Score</string>
+    <string name="progress_dialog_alert_message_sending_invitation">Sending Invitation</string>
+
+    <!--ScoreActivity-->
+    <string name="score_activity_total_score_text">Score </string>
+    <string name="score_activity_ans_questions_text">Answered Questions</string>
+    <string name="score_activity_probability_for_getting_correct_answers_text">Winning Probability </string>
+    <string name="score_activity_pie_data_set_label"></string>
+    <string name="score_activity_pie_data_setx_vals1">Correct</string>
+    <string name="score_activity_pie_data_setx_vals2">Wrong</string>
+    <string name="score_activity_pie_data_set_description"></string>
+
+    <!--PlayActivity-->
+    <string name="play_activity_read_sms_address">address</string>
+    <string name="play_activity_read_sms_body">body</string>
+    <string name="play_activity_read_sms_mobile_partner_uniq_code1">6633</string>
+    <string name="play_activity_read_sms_question_pattern">A/B/C</string>
+    <string name="play_activity_read_sms_match_found">Found a match</string>
+    <string name="play_activity_read_sms_question_open_pattern"></string>
+    <string name="play_activity_read_sms_question_close_pattern">A:</string>
+    <string name="play_activity_read_sms_answer1_open_pattern">A:</string>
+    <string name="play_activity_read_sms_answer1_close_pattern">B:</string>
+    <string name="play_activity_read_sms_answer2_open_pattern">B:</string>
+    <string name="play_activity_read_sms_answer2_close_pattern">C:</string>
+    <string name="play_activity_read_sms_answer3_open_pattern">C:</string>
+    <string name="play_activity_read_sms_answer3_close_pattern">type A/B/C &amp; send</string>
+    <string name="play_activity_read_sms_answer3_close_pattern_sinhala">A/B/C akura ewanna</string>
+    <string name="play_activity_read_sms_answer3_close_pattern_tamil">A/B/C ena type seithu seiunkal</string>
+    <string name="play_activity_read_sms_answer3_close_pattern_english">type A/B/C &amp; send</string>
+    <string name="play_activity_read_sms_match_not_found">Did not find a match</string>
+    <string name="play_activity_send_sms_get_data_base_check_skipped_preference">check_confirm</string>
+    <string name="play_activity_send_sms_skipped_status">skipped</string>
+    <string name="play_activity_send_sms_radio_button_first_index">0</string>
+    <string name="play_activity_send_sms_radio_button_second_index">1</string>
+    <string name="play_activity_send_sms_answer_a">A</string>
+    <string name="play_activity_send_sms_answer_b">B</string>
+    <string name="play_activity_send_sms_answer_c">C</string>
+    <string name="play_activity_send_sms_mobile_partner_uniq_code1">6633</string>
+    <string name="play_activity_send_sms_successfully">Message Sent successfully!</string>
+    <string name="play_activity_my_adapter_new_sms">new !</string>
+    <string name="play_activity_my_adapter_old_sms">Old!</string>
+    <string name="play_activity_my_adapter_answered_one">Answered</string>
+    <string name="play_activity_language_send_choice_button_text">Change Now</string>
+    <string name="play_activity_send_answer_alert_title">Send Answer</string>
+    <string name="play_activity_send_answer_alert_positive_button_txt">YES</string>
+    <string name="play_activity_send_answer_alert_message">Etisalat Quiz Competition 2018!</string>
+    <string name="play_activity_send_answer_alert_negative_button_txt">No</string>
+    <string name="play_activity_send_answer_alert_negative_button_toast">You\'ve changed your mind not to change current language!</string>
+
+    <!--WelcomeActivity-->
+    <string name="welcome_activity_register_service_alert_negative_button_toast">Al right! You can register next time</string>
+    <string name="welcome_activity_register_alert_positive_button_txt">Yes</string>
+    <string name="welcome_activity_register_alert_sms_sent_toast">SMS sent!. Wait for the response.</string>
+    <string name="welcome_activity_register_alert_sms_failed_toast">SMS faild, please try again later!</string>
+    <string name="welcome_activity_register_alert_message">Are you sure you want to register quiz</string>
+    <string name="welcome_activity_register_alert_title">Register Quiz</string>
+    <string name="welcome_activity_register_progress_dialog_message">Registering!</string>
+    <string name="welcome_activity_register_progress_dialog_title">Etisalat Quiz Competition 2018!</string>
+    <string name="welcome_activity_register_response">Registered</string>
+    <string name="welcome_activity_send_invitation_alert_title">Etisalat Quiz Competition 2018!</string>
+    <string name="welcome_activity_send_invitation_alert_positive_button_txt">Play Now</string>
+    <string name="welcome_activity_send_invitation_alert_message">Successfully Registered!</string>
+    <string name="welcome_activity_send_invitation_alert_negative_button_txt">Cancel</string>
+    <string name="welcome_activity_send_invitation_alert_negative_button_toast">You\'ve changed your mind not to send invitation!</string>
+
+  <!--MoreFeaturesActivity-->
+    <string name="more_features_activity_stop_service_received_sms_alert_title">Etisalat Quiz Competition 2018!</string>
+    <string name="more_features_activity_stop_service_received_sms_alert_message">Successfully Stopped Service</string>
+    <string name="more_features_activity_stop_service_received_sms_positive_button_txt">OK</string>
+
+
+    <!--ChangeLanguageActivity-->
+    <string name="change_language_activity_change_language_sinhala">S</string>
+    <string name="change_language_activity_change_language_tamil">T</string>
+    <string name="change_language_activity_change_language_english">E</string>
+    <string name="change_language_activity_change_language_successfully">Message Sent successfully!</string>
+    <string name="change_language_activity_change_language_mobile_partner_uniq_code1">6633</string>
+    <string name="change_language_activity_change_language_radio_button_first_index">0</string>
+    <string name="change_language_activity_change_language_radio_button_second_index">1</string>
+    <string name="change_language_activity_default_language_alert_title">Etisalat Quiz Competition 2018!</string>
+    <string name="change_language_activity_default_language_alert_message">Your default language is English</string>
+    <string name="change_language_activity_default_language_sinhala_alert_message">Your selected language is Sinhala</string>
+    <string name="change_language_activity_default_language_english_alert_message">Your selected language is English</string>
+    <string name="change_language_activity_default_language_tamil_alert_message">Your selected language is Tamil</string>
+    <string name="change_language_activity_default_language_alert_positive_button">Yes</string>
+    <string name="change_language_activity_change_language_sinhala_text">Sinhala</string>
+    <string name="change_language_activity_change_language_tamil_text">Tamil</string>
+    <string name="change_language_activity_change_language_english_text">English</string>
+    <!--about_us.xml-->
+    <string name="about_us_brief_description">A part of hSenid Software International, hSenid Mobile was founded in 1997 with the aim of supplying high quality software products and services to a global subscriber base. The other companies of the group specializes in Human Resource Applications and Outsourcing Capabilities.
+
+We gained recognition across Asia, Asia Pacific, Africa, Australia and USA as a partner of choice for the supply of secure, convenient and cost effective mobile solutions. With the extension of our sales and business development strategies, our systems handle nearly 50 million transactions per day, connecting over 300 million subscribers.We have set up teams of technologically advanced personnel to draw out our pathway to success globally.</string>
+    <string name="about_us_hsenid_mobile_name">hSenid Mobile</string>
+
+    <!--activity_invite.xml-->
+    <string name="activity_invite_display_text_view">Enter your friend\'s \n contact number</string>
+    <string name="activity_invite_hint_mobile_number">072#######</string>
+    <string name="activity_invite_button_text">Invite friends</string>
+
+    <!--activity_score.xml-->
+    <string name="activity_score_button_display">Your total score </string>
+    <string name="activity_score_answered_questions_text">Answered questions</string>
+    <string name="activity_score_possibility_for_getting_correct_ans_text">Winning Probability</string>
+    <string name="activity_score_congratulations_button_display">CONGRATULATIONS!</string>
+    <string name="activity_score_congratulations_button_underline_display">_____________________</string>
+    <string name="activity_score_play_button_display">PLAY NOW</string>
+
+    <!--activity_splash.xml-->
+    <string name="activity_splash_app_name">oekquhs` ñ,shkhhs`</string>
+    <string name="activity_splash_app_name_year">2018</string>
+
+    <!--content_home.xml-->
+    <string name="content_home_register_button_display">Register</string>
+    <string name="content_home_play_button_display">Play</string>
+    <string name="content_home_check_points_button_display">Check Points</string>
+    <string name="content_home_invite_friends_button_display">Invite Friends</string>
+
+    <!--activity_play_received_sms_viewer.xml-->
+    <string name="list_view_items_send_ans_button_display">SEND ANS</string>
+
+
+    <!--nav_header_home.xml-->
+    <string name="nav_header_home_app_name">SMS QUIZ</string>
+    <string name="nav_header_home_company_name">BeyondM</string>
+
+    <!--activity_invite_invalid_number_popup.xml-->
+    <string name="activity_invite_invalid_number_popup_message">Sorry!, It is not a valid etisalat number</string>
+    <string name="activity_invite_invalid_number_popup_button">OK</string>
+
+    <!--activity_home_success_registration_popup.xml-->
+    <string name="activity_home_success_registration_popup_message">Welcome! Etisalt Quiz 2018</string>
+    <string name="activity_home_success_registration_popup_button">OK</string>
+
+    <!--activity_more_features_stop_service_popup.xml-->
+    <string name="activity_more_features_stop_service_popup_message">Sad!, We are going to miss you.</string>
+    <string name="activity_more_features_stop_service_popup_button">Got it.</string>
+
+    <!--activity_home_user_registration_required_popup.xml-->
+    <string name="activity_home_user_registration_required_popup_message">Sorry, You have to register to Quiz</string>
+    <string name="activity_home_user_registration_required_popup_button">OK</string>
+
+    <!--activity_invite_sent_invitation_popup.xml-->
+    <string name="activity_invite_sent_invitation_popup_message">You have successfully sent Invitation.</string>
+    <string name="activity_invite_sent_invitation_popup_button">OK</string>
+
+    <!--activity_invite_already_registered_person_popup.xml-->
+    <string name="activity_invite_already_registered_person_popup_message">Ohhh!, That person is already registered one.</string>
+    <string name="activity_invite_already_registered_person_popup_button">OK</string>
+
+    <!--activity_invite_failed_message_popup.xml-->
+    <string name="activity_invite_failed_message_popup_message">Something Went Wrong!. Please try it again</string>
+    <string name="activity_invite_failed_message_popup_button">OK</string>
+
+    <!--activity_play_confirm_answer_popup.xml-->
+    <string name="activity_play_confirm_answer_popup_message">Do you confirm this answer</string>
+    <string name="activity_play_confirm_answer_popup_skip_confirmation">Always skip this confirmation</string>
+    <string name="activity_play_confirm_answer_popup_ok_button">OK</string>
+    <string name="activity_play_confirm_answer_popup_cancel_button">CANCEL</string>
+
+    <!--fragment_quiz_help.xml-->
+    <string name="fragment_quiz_help_feature1">Promotion date</string>
+    <string name="fragment_quiz_help_description1">During promotion periods, there will be no charging for the subscribers who were registered during a specifc period of time. This feature is not applicable for ‘free’ charging method.</string>
+    <string name="fragment_quiz_help_feature2">Invitation points</string>
+    <string name="fragment_quiz_help_description2">A registered user can send an invitation to a customer who is not registered yet. Invitation send, requesting to join with quiz application, not for campaign.</string>
+    <string name="fragment_quiz_help_feature3">Bonus points</string>
+    <string name="fragment_quiz_help_description3">Bonus marks are allocated for some random questions in the question base. They will be sent to the player according to a frequency set by the admin</string>
+    <string name="fragment_quiz_help_feature4">Danger question points (AKA Doosra questions)</string>
+    <string name="fragment_quiz_help_description4">Additional points will be given to danger questions.</string>
+    <string name="fragment_quiz_help_feature5">Happy hour points</string>
+    <string name="fragment_quiz_help_description5">Administrator can define a time range as happy hours. Additional percentage of bonus will be awarded to user during happy hours according to configured happy hour settings. Administrator can define multiple happy hours.</string>
+    <string name="fragment_quiz_help_feature6">Theme base question</string>
+    <string name="fragment_quiz_help_description6">Players can take questions according to a theme (e.g.- SPORTS)</string>
+    <string name="fragment_quiz_help_feature7">Priority question per day</string>
+    <string name="fragment_quiz_help_description7">Highest priority questions will be sent first. </string>
+
+    <!--activity_home_drawer.xml-->
+    <string name="activity_home_drawer_help">Help</string>
+    <string name="activity_home_drawer_stop_service">Stop Service</string>
+    <string name="activity_home_drawer_about_us">About Us</string>
+
+    <!--activity_more_features.xml-->
+    <string name="activity_more_features_head_text">Settings</string>
+    <string name="activity_more_features_button1_text">Change Language</string>
+    <string name="activity_more_features_button2_text">Stop Service</string>
+    <string name="activity_more_features_button3_text">About Us</string>
+    <string name="activity_more_features_stop_service_alert_title">Stop Service</string>
+    <string name="activity_more_features_stop_service_alert_positive_button_txt">Yes</string>
+    <string name="activity_more_features_stop_service_alert_message">Are you sure you want to stop service</string>
+    <string name="activity_more_features_stop_service_alert_sent_sms_toast">SMS Sent!</string>
+    <string name="activity_more_features_stop_service_alert_sms_failed_toast">SMS faild, please try again later!</string>
+    <string name="activity_more_features_stop_service_alert_negative_button_txt">No</string>
+    <string name="activity_more_features_stop_service_alert_negative_button_toast">You\'ve changed your mind not to stop quiz game</string>
+    <string name="activity_more_feature_check_default_sim_alert_network_operator">Etisalat</string>
+    <string name="activity_more_feature_check_default_sim_alert_title">Warning Dialog...</string>
+    <string name="activity_more_feature_check_default_sim_alert_message_pre_part">Your default sim is </string>
+    <string name="activity_more_feature_check_default_sim_alert_message_post_part">. To use this application, you have to change Etisalat as the default sim. </string>
+    <string name="activity_more_feature_check_default_sim_alert_message_set_possitive_button_txt">OK</string>
+    <string name="activity_more_feature_check_default_sim_alert_message_set_negative_button_txt">REPORT</string>
+
+
+    <!--activity_change_language.xml-->
+    <string name="activity_change_language_send_choice_button_text">Change Now</string>
+    <string name="activity_change_language_send_choice_alert_title">Change Language</string>
+    <string name="activity_change_language_send_choice_alert_positive_button_txt">Yes</string>
+    <string name="activity_change_language_send_choice_alert_message">Are you sure you want to change language</string>
+    <string name="activity_change_language_send_choice_alert_negative_button_txt">No</string>
+    <string name="activity_change_language_send_choice_alert_negative_button_toast">You\'ve changed your mind not to change current language!</string>
+
+
+    <!--activity_home.xml-->
+    <string name="activity_home_play_now_button_text">PLAY NOW</string>
+    <string name="activity_home_point_button_text">Points</string>
+    <string name="activity_home_invite_button_text">Invite</string>
+    <string name="activity_home_help_button_text">Help</string>
+    <string name="activity_home_more_button_text">More</string>
+
+
+
+</resources>

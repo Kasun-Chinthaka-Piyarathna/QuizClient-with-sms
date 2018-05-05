@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/invitefriends"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/android_quiz_gradient_background"
+    android:orientation="vertical"
+    android:padding="10dp"
+    tools:context="hms.quiz.client.activities.InviteFriendsActivity">
+
+
+    <ImageView
+        android:id="@+id/heading_image_view"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:src="@drawable/invite_everyone_heading" />
+
+    <android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/card_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="20dp"
+        card_view:cardCornerRadius="5dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@drawable/activity_invite_my_friend_google_card_shape"
+            android:orientation="vertical"
+            android:padding="10dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:text="@string/activity_invite_display_text_view"
+                android:textAlignment="center"
+                android:textColor="@color/activity_invite_ask_contact_number_text_color"
+                android:textSize="28dp" />
+
+
+            <EditText
+                android:id="@+id/friendsnumber"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/activity_invite_phone_number_edit_text_buttonshape"
+                android:gravity="center"
+                android:hint="@string/activity_invite_hint_mobile_number"
+                android:inputType="phone"
+                android:textAlignment="center"
+                android:textColor="#000000" />
+
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/invite_my_friend_buttonshape"
+        android:drawableLeft="@drawable/activity_home_invite_icon"
+        android:gravity="center"
+        android:onClick="inviteFriends"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:text="@string/activity_invite_button_text"
+        android:textColor="@color/activity_invite_invite_my_friend_font_color"
+        android:textSize="20dp" />
+
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        style="?android:attr/progressBarStyleLarge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/textView"
+        android:layout_alignLeft="@+id/textview"
+        android:layout_alignParentBottom="true"
+        android:layout_alignRight="@+id/textView"
+        android:layout_alignStart="@+id/textview"
+        android:layout_below="@+id/button"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:progressDrawable="@drawable/circular_progress_bar"
+        android:visibility="gone" />
+
+
+</LinearLayout>

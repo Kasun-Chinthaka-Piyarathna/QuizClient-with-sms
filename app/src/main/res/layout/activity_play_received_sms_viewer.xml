@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:visibility="gone"
+            android:id="@+id/questionWithNumber"
+            android:weightSum="7">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:layout_weight="6">
+
+            <TextView
+                android:id="@+id/question_number"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:background="@drawable/activity_play_question_number_circular_textview_drawable"
+                android:textColor="@color/question_number_text_color"
+                />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:layout_weight="1"
+                android:padding="@dimen/activity_horizontal_margin"
+                android:text=""
+                android:textColor="@color/question_text_color" />
+
+
+        </LinearLayout>
+
+
+        <TextView
+            android:id="@+id/textViewResponse"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:layout_weight="1"
+            android:padding="@dimen/activity_horizontal_margin"
+            android:text=""
+            android:textColor="@color/question_text_color" />
+
+        <RadioGroup
+            android:id="@+id/radioQuestions"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="40dp"
+            android:layout_marginRight="40dp"
+            android:visibility="gone">
+
+            <RadioButton
+                android:id="@+id/radioA"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:background="@drawable/activity_play_radio_button_background"
+                android:button="@android:color/transparent"
+                android:checked="true"
+                android:gravity="center"
+                android:text=""
+                android:textColor="@color/radio_button_text_color"
+                android:textSize="17dp"
+                android:textStyle="bold" />
+
+            <RadioButton
+                android:id="@+id/radioB"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/activity_play_radio_button_background"
+                android:button="@android:color/transparent"
+                android:gravity="center"
+                android:text=""
+                android:textColor="@color/radio_button_text_color"
+                android:textSize="17dp"
+                android:textStyle="bold" />
+
+            <RadioButton
+                android:id="@+id/radioC"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/activity_play_radio_button_background"
+                android:button="@android:color/transparent"
+                android:gravity="center"
+                android:text=""
+                android:textColor="@color/radio_button_text_color"
+                android:textSize="17dp"
+                android:textStyle="bold" />
+
+        </RadioGroup>
+
+
+        <Button
+            android:id="@+id/sendsms"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/activity_play_received_sms_viewer_sendsms_button_background"
+            android:drawableLeft="@drawable/activity_play_send_sms_icon"
+            android:onClick="sendsms"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:text="@string/list_view_items_send_ans_button_display"
+            android:textColor="@color/send_ans_text_color"
+            android:textSize="20dp"
+            android:visibility="visible" />
+    </LinearLayout>
+
+</LinearLayout>

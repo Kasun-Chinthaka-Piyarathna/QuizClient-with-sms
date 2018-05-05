@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="color_nav_bar">#9fff24</color>
+
+    <color name="primary_color">#26a69a</color>
+    <color name="primary_light_color">#64d8cb</color>
+    <color name="primary_dark_color">#00766c</color>
+    <color name="primary_text_color">#000000</color>
+    <color name="dragon_green">#6AFB92</color>
+    <color name="dark_sea_green">#8BB381</color>
+    <color name="status_bar_color">#497320</color>
+
+    <color name="color_primary">#3F51B5</color>
+    <color name="color_primary_dark">#303F9F</color>
+    <color name="color_accent">#FF4081</color>
+    <color name="color_for_sms_responses">#ffffff</color>
+
+    <!-- Screens background color-->
+    <color name="bg_screen1">#D3D925</color>
+    <color name="bg_screen2">#D3D925</color>
+    <color name="bg_screen3">#D3D925</color>
+    <color name="bg_screen4">#D3D925</color>
+    <color name="bg_screen5">#D3D925</color>
+    <color name="bg_screen5_button">#000000</color>
+
+    <!-- dots inactive colors -->
+    <color name="dot_dark_screen1">#000000</color>
+    <color name="dot_dark_screen2">#000000</color>
+    <color name="dot_dark_screen3">#000000</color>
+    <color name="dot_dark_screen4">#000000</color>
+    <color name="dot_dark_screen5">#000000</color>
+
+    <!-- dots active colors -->
+    <color name="dot_light_screen1">#ffffff</color>
+    <color name="dot_light_screen2">#ffffff</color>
+    <color name="dot_light_screen3">#ffffff</color>
+    <color name="dot_light_screen4">#ffffff</color>
+    <color name="dot_light_screen5">#ffffff</color>
+
+    <array name="array_dot_active">
+        <item>@color/dot_light_screen1</item>
+        <item>@color/dot_light_screen2</item>
+        <item>@color/dot_light_screen3</item>
+        <item>@color/dot_light_screen4</item>
+        <item>@color/dot_light_screen5</item>
+    </array>
+
+    <array name="array_dot_inactive">
+        <item>@color/dot_dark_screen1</item>
+        <item>@color/dot_dark_screen2</item>
+        <item>@color/dot_dark_screen3</item>
+        <item>@color/dot_dark_screen4</item>
+        <item>@color/dot_dark_screen5</item>
+    </array>
+
+    <color name="h_primary_color">#ffffff</color>
+    <color name="h_primary_light_color">#497320</color>
+    <color name="text_color">#ffffff</color>
+    <color name="h_primary_dark_color">#00AA8D</color>
+    <color name="h_primary_text_color">#000000</color>
+
+
+    <!--activity_play_received_sms_viewer.xml-->
+    <color name="send_ans_back_color">#8ef285</color>
+    <color name="send_ans_text_color">#ffffff</color>
+    <color name="question_text_color">#000000</color>
+    <color name="question_number_text_color">#ffffff</color>
+    <color name="status_text_color">#FF0000</color>
+    <color name="radio_button_text_color">#ffffff</color>
+
+    <!--activity_score.xml-->
+    <color name="activity_score_total_score_text_view_color">#00BF9A</color>
+    <color name="activity_score_total_score_text_view_font_color">#000000</color>
+    <color name="activity_score_body_text_color">#000000</color>
+    <color name="activity_score_play_now_button_text_color">#ffffff</color>
+
+    <!--activity_invite.xml-->
+    <color name="activity_invite_invite_my_friend_back_color">#497320</color>
+    <color name="activity_invite_invite_my_friend_font_color">#ffffff</color>
+    <color name="activity_invite_back_color">#D3D925</color>
+    <color name="activity_invite_ask_contact_number_text_color">#000000</color>
+
+    <!--activity_more_features_stop_service_popupice_popup.xml.xml-->
+    <color name="activity_home_stop_service_popup">#ffffff</color>
+    <color name="activity_home_stop_service_popup_txt_color">#000000</color>
+
+    <!--activity_play_confirm_answer_popup.xml-->
+    <color name="activity_play_confirm_answer_popup_txt_color">#ffffff</color>
+    <color name="activity_play_confirm_answer_popup_back_color">#008975</color>
+
+    <!--activity_home_user_registration_required_popup.xml-->
+    <color name="activity_home_user_registration_required_popup_back_color">#000</color>
+
+    <!--activity_invite_already_registered_person_popup.xml-->
+    <color name="activity_invite_already_registered_person_popup_back_color">#000</color>
+    <color name="activity_invite_already_registered_person_popup_txt_color">#fff</color>
+
+    <!--activity_invite_failed_message_popup.xml-->
+    <color name="activity_invite_failed_message_popup_back_color">#000</color>
+    <color name="activity_invite_failed_message_popup_txt_color">#fff</color>
+
+    <!--activity_invite_invalid_number_popup.xml-->
+    <color name="activity_invite_invalid_number_popup_back_color">#000</color>
+    <color name="activity_invite_invalid_number_popup_txt_color">#fff</color>
+
+    <!--activity_invite_sent_invitation_popup.xml-->
+    <color name="activity_invite_sent_invitation_popup_back_color">#000</color>
+    <color name="activity_invite_sent_invitation_popup_txt_color">#fff</color>
+
+    <!--activity_splash-->
+    <color name="activity_splash_txt_color">#49732d</color>
+    <color name="activity_splash_back_color">#D3D925</color>
+
+    <!--content_home-->
+    <color name="content_home_back_color">#D6EF9F</color>
+
+    <!--activity_more_features.xml-->
+    <color name="activity_more_features_background_color">#D3D925</color>
+    <color name="activity_more_features_head_text_color">#000000</color>
+    <color name="activity_more_features_button1_text_color">#ffffff</color>
+    <color name="activity_more_features_button2_text_color">#ffffff</color>
+    <color name="activity_more_features_button3_text_color">#ffffff</color>
+
+
+    <!--activity_help.xml-->
+    <color name="activity_help_background_color">#D3D925</color>
+    <color name="activity_help_text_color">#000000</color>
+
+    <!--activity_play_radio_button_regular_state.xml-->
+    <color name="activity_play_radio_button_regular_state_solid_color">#fff</color>
+    <color name="activity_play_radio_button_regular_state_stroke_color">#555555</color>
+    <color name="activity_play_radio_button_regular_state_gradient_center_color">#81A632</color>
+    <color name="activity_play_radio_button_regular_state_gradient_start_color">#81A632</color>
+    <color name="activity_play_radio_button_regular_state_gradient_end_color">#81A632</color>
+
+
+    <!--activity_play_radio_button_selected_state.xml-->
+    <color name="activity_play_radio_button_selected_state_solid_color">#fff</color>
+    <color name="activity_play_radio_button_selected_state_stroke_color">#53aade</color>
+    <color name="activity_play_radio_button_selected_state_gradient_center_color">#81A632</color>
+    <color name="activity_play_radio_button_selected_state_gradient_start_color">#81A632</color>
+    <color name="activity_play_radio_button_selected_state_gradient_end_color">#81A632</color>
+
+
+    <!--activity_change_language.xml-->
+    <color name="activity_change_language_radio_button_font_color">#ffffff</color>
+
+    <!--activity_about_us.xml-->
+    <color name="activity_about_us_hsenid_mobile_text_color">#000000</color>
+
+    <!--activity_home.xml-->
+    <color name="activity_home_head_text_color">#000000</color>
+    <color name="activity_home_buttons_text_color">#ffffff</color>
+</resources>
+
+
+
+
+
+
+

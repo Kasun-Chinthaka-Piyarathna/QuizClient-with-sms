@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/layout_more_features"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:background="@drawable/android_quiz_gradient_background"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="10dp"
+    tools:context="hms.quiz.client.activities.MoreFeaturesActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="4">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="2.5"
+            android:gravity="center">
+
+            <ImageView
+                android:layout_width="75dp"
+                android:layout_height="75dp"
+                android:layout_gravity="center"
+                android:src="@drawable/activity_more_features_setting_head_icon" />
+        </LinearLayout>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1.5"
+            android:text="@string/activity_more_features_head_text"
+            android:textAlignment="textStart"
+            android:textColor="@color/activity_more_features_head_text_color"
+            android:textSize="35dp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/change_language"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_gravity="center"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/buttonshape"
+        android:drawableLeft="@drawable/activity_more_features_change_language_icon"
+        android:gravity="center"
+        android:onClick="changeLanguage"
+        android:text="@string/activity_more_features_button1_text"
+        android:textColor="@color/activity_more_features_button1_text_color"
+        android:padding="5dp"
+        android:textSize="16dp" />
+
+
+    <Button
+
+        android:id="@+id/stop_service"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_gravity="center"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/buttonshape"
+        android:drawableLeft="@drawable/activity_more_features_stop_service_icon"
+        android:gravity="center"
+        android:onClick="stopService"
+        android:text="@string/activity_more_features_button2_text"
+        android:textColor="@color/activity_more_features_button2_text_color"
+        android:padding="5dp"
+        android:textSize="16dp" />
+
+    <Button
+        android:id="@+id/about_us"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_gravity="center"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/buttonshape"
+        android:drawableLeft="@drawable/activity_more_features_about_us_icon"
+        android:gravity="center"
+        android:onClick="viewAboutUs"
+        android:text="@string/activity_more_features_button3_text"
+        android:textColor="@color/activity_more_features_button3_text_color"
+        android:padding="5dp"
+        android:textSize="16dp" />
+
+</LinearLayout>

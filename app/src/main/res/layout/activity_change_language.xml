@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/change_language_content"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/android_quiz_gradient_background"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="10dp"
+    tools:context="hms.quiz.client.activities.ChangeLanguageActivity">
+
+    <RadioGroup
+        android:id="@+id/groupLanguages"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp">
+
+        <RadioButton
+            android:id="@+id/languageToSinhala"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:background="@drawable/activity_play_radio_button_background"
+            android:button="@android:color/transparent"
+            android:checked="true"
+            android:gravity="center|center_vertical"
+            android:text="@string/change_language_activity_change_language_sinhala_text"
+            android:textAlignment="center"
+            android:textColor="@color/activity_change_language_radio_button_font_color"
+            android:textSize="17dp"
+            android:textStyle="bold" />
+
+        <RadioButton
+            android:id="@+id/languageToEnglish"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/activity_play_radio_button_background"
+            android:button="@android:color/transparent"
+            android:gravity="center|center_vertical"
+            android:text="@string/change_language_activity_change_language_english_text"
+            android:textAlignment="center"
+            android:textColor="@color/activity_change_language_radio_button_font_color"
+            android:textSize="17dp"
+            android:textStyle="bold" />
+
+        <RadioButton
+            android:id="@+id/languageToTamil"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/activity_play_radio_button_background"
+            android:button="@android:color/transparent"
+            android:gravity="center|center_vertical"
+            android:text="@string/change_language_activity_change_language_tamil_text"
+            android:textAlignment="center"
+            android:textColor="@color/activity_change_language_radio_button_font_color"
+            android:textSize="17dp"
+            android:textStyle="bold" />
+
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/sendsms"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/activity_play_received_sms_viewer_sendsms_button_background"
+        android:drawableLeft="@drawable/activity_play_send_sms_icon"
+        android:onClick="changeLanguageNow"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:text="@string/activity_change_language_send_choice_button_text"
+        android:textColor="@color/send_ans_text_color"
+        android:textSize="20dp"
+        android:visibility="visible" />
+
+</LinearLayout>

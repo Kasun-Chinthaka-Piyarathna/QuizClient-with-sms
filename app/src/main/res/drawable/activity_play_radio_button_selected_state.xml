@@ -1,0 +1,21 @@
+<shape
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle">
+    <size
+        android:width="@dimen/activity_horizontal_margin"
+        android:height="50dp"
+        />
+    <corners
+        android:radius="20dp" />
+    <solid
+        android:color="@color/activity_play_radio_button_selected_state_solid_color" />
+    <stroke
+        android:width="2dp"
+        android:color="@color/activity_play_radio_button_selected_state_stroke_color" />
+
+    <gradient
+        android:centerColor="@color/activity_play_radio_button_selected_state_gradient_center_color"
+        android:endColor="@color/activity_play_radio_button_selected_state_gradient_end_color"
+        android:startColor="@color/activity_play_radio_button_selected_state_gradient_start_color"
+        />
+</shape>
